@@ -1,0 +1,17 @@
+[[bin]]
+name = "dedup"
+path = "deduplicate.rs"
+
+[dependencies]
+fnv = "1.0.7"
+nohash-hasher = "0.2.0"
+
+[dependencies.term_macros]
+git = "https://github.com/ckoshka/term_macros"
+
+
+[package]
+authors = ["Anonymous"]
+edition = "2021"
+name = "deduplicate"
+version = "0.1.0"
